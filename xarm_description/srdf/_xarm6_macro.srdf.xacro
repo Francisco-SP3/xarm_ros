@@ -207,5 +207,7 @@
     <disable_collisions link1="${prefix}link3" link2="${prefix}link_eef" reason="Never" />
     <disable_collisions link1="${prefix}link5" link2="${prefix}link_eef" reason="Never" />
     <disable_collisions link1="${prefix}link6" link2="${prefix}link_eef" reason="Adjacent" />
+    <!-- camera collisions-->
+    <disable_collisions link1="${prefix}link6" link2="${prefix}camera" reason="Adjacent" />
   </xacro:macro>
 </robot>
