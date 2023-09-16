@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Xarm6 + depth camera demo for Roborregos Candidates 2023
-# by Emiliano Flores
+# by Emiliano Flores 16/09/2023
 # Reads the current published frame from the camera, allows for the user to click on a point and the xarm will go to that point
 import rospy
 import sys
@@ -99,7 +99,7 @@ class demoReto:
         # right click to go to a point
         if event == cv2.EVENT_RBUTTONDOWN:
             # GO TO A POINT, which means go a point slightly above clicked point
-            self.Z_OFFSET = 0.03 # 3cm above point, to avoid hitting cube or table
+            self.Z_OFFSET = 0.03 # 3ccm above point, to avoid hitting cube or table
             # get the depth value
             depth = self._depth_frame[y, x]
             rospy.loginfo(f"Clicked at ({x}, {y}) with depth {depth}")
