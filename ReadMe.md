@@ -107,7 +107,7 @@ For **UFACTORY Lite 6** users, make sure you have followed the instructions befo
 
 # 0. Roborregos Candidates 2023
 ## Follow document instructions
-To run the rviz visualization and gazebo simulation, follow instructions on the [challenge documentation](). This involves installations specified in [section 3](#3-preparations-before-using-this-package) and testing according to [section 5](#5-package-description--usage-guidance). This will allow you to test the simulation and visualization of the robot. To test that your simulation is working correctly run the test [7.5 Color Cube Grasping Demo](#75-color-cube-grasping-demo), following necessary installations required for it.
+To run the rviz visualization and gazebo simulation, follow instructions on the [challenge documentation](https://drive.google.com/file/d/1q3bjmaz60yMFt-JwS5mhvdRyGTFR5-g5/view?usp=drive_link). This involves installations specified in [section 3](#3-preparations-before-using-this-package) and testing according to [section 5](#5-package-description--usage-guidance). This will allow you to test the simulation and visualization of the robot. To test that your simulation is working correctly run the test [7.5 Color Cube Grasping Demo](#75-color-cube-grasping-demo), following necessary installations required for it.
 
 ## Test with the challenge environment
 The challenge environment involves a new gazebo world where the camera is located in the gripper of the robot. This gazebo scene, as well as rviz visualization can be opened with:_
