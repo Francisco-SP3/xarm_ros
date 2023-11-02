@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fsp/Roborregos/xarm_ros/ws_moveit/install/setup.sh
