@@ -1,2 +1,0 @@
-roboticsgroup_upatras_gazebo_plugins
--DCATKIN_DEVEL_PREFIX=/home/fsp/Roborregos/xarm_ros/ws_moveit/devel -DCMAKE_INSTALL_PREFIX=/home/fsp/Roborregos/xarm_ros/ws_moveit/install -G Unix Makefiles
